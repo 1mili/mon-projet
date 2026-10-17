@@ -21,3 +21,11 @@
 - `git log --oneline --graph --all` : Affiche l'historique sous forme compacte et graphique.
 - `git diff HEAD~1 HEAD` : Compare les différences entre deux commits.
 - `git show HEAD` : Affiche le détail et les modifications apportées par le dernier commit.
+
+## Partie 4 : Branches et Conflit local
+- `git checkout -b <branche>` : Crée une nouvelle branche et bascule dessus.
+- `git branch` : Liste toutes les branches locales.
+- `git push -u origin <branche>` : Publie la branche sur le dépôt distant et définit le suivi.
+- `git checkout <branche>` : Bascule sur une branche existante.
+- `git merge <branche>` : Fusionne la branche spécifiée dans la branche courante.
+- `git merge --abort` : Annule la fusion en cours en cas de conflit.
